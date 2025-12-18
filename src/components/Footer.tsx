@@ -8,21 +8,21 @@ export default function Footer() {
           <div className="grid grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
               <img
-                src="/images/institutions/umcu.jpg"
+                src="/website/images/institutions/umcu.jpg"
                 alt="UMC Utrecht"
                 className="w-full h-20 object-contain"
               />
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
               <img
-                src="/images/institutions/wkz.jpg"
+                src="/website/images/institutions/wkz.jpg"
                 alt="Wilhelmina Kinderziekenhuis"
                 className="w-full h-20 object-contain"
               />
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
               <img
-                src="/images/institutions/utrecht-university.jpg"
+                src="/website/images/institutions/utrecht-university.jpg"
                 alt="Utrecht University"
                 className="w-full h-20 object-contain"
               />

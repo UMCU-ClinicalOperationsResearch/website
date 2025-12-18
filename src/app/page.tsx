@@ -101,7 +101,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <img
-                src="/images/institutions/umcu.jpg"
+                src="/website/images/institutions/umcu.jpg"
                 alt="UMC Utrecht"
                 className="w-full h-48 object-contain mb-4"
               />
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <img
-                src="/images/institutions/wkz.jpg"
+                src="/website/images/institutions/wkz.jpg"
                 alt="Wilhelmina Kinderziekenhuis"
                 className="w-full h-48 object-contain mb-4"
               />
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <img
-                src="/images/institutions/utrecht-university.jpg"
+                src="/website/images/institutions/utrecht-university.jpg"
                 alt="Utrecht University"
                 className="w-full h-48 object-contain mb-4"
               />
