@@ -2,8 +2,9 @@
 
 import { groupPubMedConfig } from "@/data/pubmed";
 import { teamMembers } from "@/data/team";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import type { PubMedArticle } from "@/lib/pubmed";
+import { getGroupPublications, getAuthorPublications } from "@/lib/pubmed";
 
 export default function PublicationsPage() {
   const [publications, setPublications] = useState<PubMedArticle[]>([]);
@@ -14,9 +15,42 @@ export default function PublicationsPage() {
     async function fetchPublications() {
       setLoading(true);
       try {
-        const response = await fetch(`/api/publications?author=${selectedAuthor}`);
-        const data = await response.json();
-        setPublications(data);
+        let pubs;
+        
+        if (selectedAuthor && selectedAuthor !== "all") {
+          // Extract search query from author name
+          let searchQuery;
+          
+          if (selectedAuthor === "Dr. L.M. van Loon") {
+            searchQuery = "van Loon LM";
+          } else if (selectedAuthor === "Dr. T.H. Kappen" || selectedAuthor === "Dr. Teus Kappen") {
+            searchQuery = "Kappen TH";
+          } else if (selectedAuthor === "Drs. Erik Koomen" || selectedAuthor === "Drs. E. Koomen") {
+            searchQuery = "Koomen E";
+          } else if (selectedAuthor === "Dr. J. Nijman" || selectedAuthor === "Dr. Joppe Nijman") {
+            searchQuery = "Nijman J";
+          } else if (selectedAuthor === "Ruben Zoodsma") {
+            searchQuery = "Zoodsma R";
+          } else if (selectedAuthor === "Dr. Martine Breteler") {
+            searchQuery = "Breteler M";
+          } else {
+            // Generic handling
+            const nameParts = selectedAuthor.split(" ");
+            const lastName = nameParts[nameParts.length - 1];
+            const initials = nameParts
+              .slice(0, -1)
+              .map(part => part.charAt(0))
+              .join("");
+            searchQuery = `${lastName} ${initials}`;
+          }
+          
+          pubs = await getAuthorPublications(searchQuery, 20);
+        } else {
+          // Fetch publications for all team members
+          pubs = await getGroupPublications(["Kappen TH", "van Loon LM"], 20);
+        }
+        
+        setPublications(pubs);
       } catch (error) {
         console.error("Error fetching publications:", error);
         setPublications([]);
