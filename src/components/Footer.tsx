@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950 border-t border-gray-200 dark:border-gray-800 mt-16">
@@ -9,34 +7,25 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-6 text-center">Affiliated Institutions</h3>
           <div className="grid grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
-              <div className="relative w-full h-20">
-                <Image
-                  src="/images/institutions/umcu.jpg"
-                  alt="UMC Utrecht"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/umcu.jpg"
+                alt="UMC Utrecht"
+                className="w-full h-20 object-contain"
+              />
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
-              <div className="relative w-full h-20">
-                <Image
-                  src="/images/institutions/wkz.jpg"
-                  alt="Wilhelmina Kinderziekenhuis"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/wkz.jpg"
+                alt="Wilhelmina Kinderziekenhuis"
+                className="w-full h-20 object-contain"
+              />
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center shadow-sm">
-              <div className="relative w-full h-20">
-                <Image
-                  src="/images/institutions/utrecht-university.jpg"
-                  alt="Utrecht University"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/utrecht-university.jpg"
+                alt="Utrecht University"
+                className="w-full h-20 object-contain"
+              />
             </div>
           </div>
         </div>

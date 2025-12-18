@@ -1,5 +1,4 @@
 import { teamMembers } from "@/data/team";
-import Image from "next/image";
 
 export default function TeamPage() {
   const staffMembers = teamMembers.filter(member => member.category === 'staff' || !member.category);
@@ -21,11 +20,9 @@ export default function TeamPage() {
             <div className="mb-4">
               {member.photo ? (
                 <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden shadow-lg">
-                  <Image
+                  <img
                     src={member.photo}
                     alt={member.name}
-                    width={128}
-                    height={128}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -75,7 +72,7 @@ export default function TeamPage() {
                 <div className="mb-4">
                   {member.photo ? (
                     <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden shadow-lg">
-                      <Image
+                      <img
                         src={member.photo}
                         alt={member.name}
                         width={128}

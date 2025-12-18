@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -101,42 +100,33 @@ export default function Home() {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
-              <div className="relative h-48 mb-4">
-                <Image
-                  src="/images/institutions/umcu.jpg"
-                  alt="UMC Utrecht"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/umcu.jpg"
+                alt="UMC Utrecht"
+                className="w-full h-48 object-contain mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">UMC Utrecht</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
                 University Medical Center Utrecht
               </p>
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
-              <div className="relative h-48 mb-4">
-                <Image
-                  src="/images/institutions/wkz.jpg"
-                  alt="Wilhelmina Kinderziekenhuis"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/wkz.jpg"
+                alt="Wilhelmina Kinderziekenhuis"
+                className="w-full h-48 object-contain mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">WKZ</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Wilhelmina Children's Hospital
               </p>
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
-              <div className="relative h-48 mb-4">
-                <Image
-                  src="/images/institutions/utrecht-university.jpg"
-                  alt="Utrecht University"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+              <img
+                src="/images/institutions/utrecht-university.jpg"
+                alt="Utrecht University"
+                className="w-full h-48 object-contain mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">Utrecht University</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Universiteit Utrecht
