@@ -1,42 +1,81 @@
 ---
-title: "Lab Update: New Team Members"
+title: "Team Update: Advancing Smart Alarm Research"
 date: "2024-12-01"
-excerpt: "We're excited to welcome new members to our research team and share updates on ongoing projects."
+excerpt: "Updates on our expanding team and progress on smart alarm systems and other clinical operations research projects."
 ---
 
-# Lab Update: New Team Members
+# Team Update: Advancing Smart Alarm Research
 
-We're thrilled to announce that our research group is growing! This month, we welcomed several talented new members who bring diverse expertise to our team.
+The Clinical Operations Research group continues to grow! We're excited to welcome new team members who bring diverse expertise in technical medicine, data science, and clinical care—all contributing to our mission of creating smarter, safer ICUs.
 
-## New Additions
+## Recent Additions
 
-### PhD Students
+### Master Students
 
-We're excited to have two new PhD students joining us:
+We're pleased to have master students from the Technical Medicine program at the University of Twente joining our research efforts. Their unique blend of engineering and medical knowledge is invaluable for developing and testing smart alarm technologies.
 
-- **Alex Chen**: Working on computational approaches to protein dynamics
-- **Maria Garcia**: Focusing on statistical methods for single-cell analysis
+### Multidisciplinary Collaboration
 
-### Postdoctoral Researchers
+Our team includes:
 
-Dr. Robert Thompson has joined as a postdoctoral researcher, bringing extensive experience in structural biology and computational modeling.
+- Anesthesiologists and intensivists with front-line ICU experience
+- Technical physicians bridging technology and medicine
+- Data scientists and AI researchers developing intelligent algorithms
+- UX researchers ensuring our alarm systems fit clinical workflows
 
 ## Current Projects
 
-Our team is currently working on several exciting projects:
+### Smart and Silent ICU (SASICU) - Our Flagship Initiative
 
-1. **Project Alpha**: Developing new algorithms for predicting protein-ligand binding
-2. **Project Beta**: Large-scale analysis of genomic variation in rare diseases
-3. **Project Gamma**: Integration of multi-omics data for systems biology
+Our primary focus is reducing alarm fatigue in the pediatric ICU through intelligent monitoring systems. This groundbreaking project involves:
+
+- Machine learning algorithms to classify alarm significance
+- Synthetic data approaches to test new strategies safely
+- Integration with the new PICU construction at WKZ
+- Collaboration with medical device manufacturers
+- Real-world validation of alarm reduction strategies
+
+The SASICU project represents a unique opportunity to design a modern ICU with smart alarm management built in from day one.
+
+### Related Research Areas
+
+**Medical Digital Twins**: Developing cardiovascular models that complement alarm systems by providing predictive insights into patient status.
+
+**Perioperative Decision Support**: Implementing prediction models to anticipate complications—reducing the need for reactive alarms.
+
+**Pediatric Cardiac Critical Care**: Advanced neuromonitoring for congenital heart defect patients, with intelligent alerting tailored to this vulnerable population.
+
+**Healthcare Process Optimization**: Understanding how alarm management fits into broader ICU workflows and quality improvement.
+
+## Recent Milestones
+
+- Successful pilot testing of alarm reduction algorithms in clinical simulator
+- New partnerships with medical technology companies
+- Publications on alarm fatigue and synthetic data methodologies
+- Presentations at international critical care conferences
+
+## Publications
+
+Check our [Publications page](/publications) for our latest research on alarm systems, clinical decision support, and intensive care innovation.
 
 ## Collaborative Opportunities
 
-We're always looking for collaboration opportunities with other research groups. If you're interested in working with us, please don't hesitate to reach out!
+We're seeking collaborations with:
 
-## Upcoming Events
+- ICUs implementing or researching alarm management strategies
+- Medical device manufacturers interested in smarter alarm algorithms
+- Healthcare systems addressing alarm fatigue
+- Researchers in human factors, patient safety, and AI in healthcare
+- Hospitals planning new ICU facilities with integrated technology
 
-- Lab retreat: January 15-17
-- Conference presentation at [Conference Name]: February 20
-- Workshop on computational methods: March 5
+Interested in our smart alarm research? Reach out via our team page!
 
-We're looking forward to an exciting year ahead!
+## What's Next
+
+- Expanded validation studies in the PICU
+- Integration with the new SASICU facility design
+- Multi-center studies on alarm reduction strategies
+- Publications on real-world implementation outcomes
+- Workshops training other institutions in alarm optimization
+
+We're excited about the transformative potential of smart alarm systems to improve both patient safety and the ICU work environment!
